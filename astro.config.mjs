@@ -5,14 +5,10 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
 import { defineConfig } from 'astro/config';
 
-export default defineConfig({
-  site: 'https://wminnella.github.io', // Sostituisci "tuonome" con il tuo username GitHub
-  base: '/PKM',                      // Il nome esatto del tuo repository
-});
-
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://wminnella.github.io',
+	base:'/PKM',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
